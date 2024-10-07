@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="input_logo_event" id="s_9l+}YnvskV}twgyV6f" x="-200" y="-9"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="basic_show_icon" id="2l;@56y=JCx#plHFmL2l"><field name="i">IconNames.Heart</field><next><block type="basic_show_icon" id="I,Hd`2kPIw~$1rMUTjP;"><field name="i">IconNames.SmallHeart</field><next><block type="device_show_leds" id="^^fJl4%t~UZUEJ+36ZwK"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="basic_show_icon" id="R:ab@h/$~+z#]yl9t*E,"><field name="i">IconNames.SmallDiamond</field><next><block type="device_show_leds" id=".*vgcWHfkKy`FN=95kdA"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        # . . . # 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="device_clear_display" id="xy0X])V66uH{~-zSacn+"></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="vQn?{k!pb6bh8CP@BgpO" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="(7qS|{i.a5`w.XrRYpr["><field name="i">IconNames.Yes</field></block></statement></block><block type="device_forever" id="A#kgzIpNOI4C{Y[v?qU?" x="201" y="8"></block><block type="device_button_event" id="e!f@[VoJwn;i2t^%lg63" x="199" y="117"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="music_playable_play" id="Sbl+_kb*sA,s4?c7f[WH"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="!czyh%MN}xZYO(i:8%I)"><value name="melody"><shadow type="melody_editor" id="H!a+FZ$hX?yA)#CjRXlM"><field name="melody">"C D E F G A B C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="YA6IUbBQt0P#8oJ1};:X"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">400</field></shadow></value></shadow></value><next><block type="device_show_leds" id="./D@Pf1#u3-%*osLyyCv"><field name="LEDS">`
+        # . # . # 
+        # . # . # 
+        # # # . # 
+        # . # . # 
+        # . # . #
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="WG3|WN7B4bPMW[kioslL" x="1" y="150"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="wDf%ih1C=OH]h+`Q9[n1"><field name="i">IconNames.Sad</field></block></statement></block><block type="device_gesture_event" id="ocCX{BYh~qMxhOU6Vrj5" x="-6" y="300"><field name="NAME">Gesture.ScreenDown</field><statement name="HANDLER"><block type="device_clear_display" id="+SC*:|buPwh,YA{SPld("></block></statement></block></xml>
